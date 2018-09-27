@@ -1,8 +1,9 @@
 .row{   
 
     background-color:black;
-    color:white;
+    color: gold;
     font-size:20px;
+    border-bottom: 2px; 
 }
 .headshot{
     width:20%;
@@ -17,9 +18,8 @@
     margin-top:5px;
     margin-bottom:5px;
 }
-.aboutme{
-    border:1px solid black;   
-}
+  
+
 
 .footer {
     display: flex;
@@ -29,10 +29,26 @@
 .mid {
     display: flex;
     justify-content: space-around;
+    background-color: black;
+    color: gold;
     
     }
 
-.picture {
+.aboutme {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
     
-    text-align: center;
+}
+
+.headshot{
+    border-radius: 150%;
+    border-color: gold;
+
+    
 }
